@@ -1,0 +1,68 @@
+.country{
+    padding: 0 50px;
+
+    nav{
+        margin: 30px 0;
+
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            background-color: var(--Elements);
+            box-shadow: 0px 0px 4px #dadae2;
+            color: var(--Text);
+
+            &:hover{
+                box-shadow: 0px 0px 8px #c9c9d5;
+            }
+        }
+    }
+
+    >div{
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+        img{
+            width: 50%;
+            box-shadow: 0 0 4px #dadae2;
+            height: 100%;
+            object-fit: cover;
+        }
+        .text-info{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            line-height: 25px;
+            color: var(--Text);
+
+            .text-grid{
+                display: flex;
+                flex-wrap: wrap;
+
+                span{
+                   width: 50%; 
+                }
+            }
+            .border{    
+                margin-top: 30px;
+                display: flex;
+                span{
+                    margin-right: 15px;
+                }
+                button{
+                    margin-right: 20px;
+                    background-color: var(--Elements);
+                    border: none;
+                    box-shadow: 0px 0px 4px #c7c4c4;
+                    padding: 5px 25px;
+                    color: var(--Text);
+                    &:hover{
+                        box-shadow: 0px 0px 8px #c9c9d5;
+                    }
+                }
+            }
+        }
+    }
+}

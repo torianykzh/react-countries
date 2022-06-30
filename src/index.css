@@ -1,0 +1,38 @@
+html[data-theme="dark"]{
+  /* (Dark Mode Elements) */
+  --Elements: hsl(209, 23%, 22%);
+  /* (Dark Mode Background) */
+  --Background: hsl(207, 26%, 17%);
+  /* (Dark Mode Text) */
+  --Text: hsl(0, 0%, 100%)
+}
+
+html[data-theme="light"]{
+  /* (Light Mode Elements) */
+  --Elements: hsl(0, 0%, 100%);
+  /* (Light Mode Background) */
+  --Background: hsl(0, 0%, 98%);
+  /* (Light Mode Text) */
+  --Text: hsl(200, 15%, 8%);  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--Background);
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  font-family: Nunito Sans;
+}
+
